@@ -52,11 +52,6 @@ import AbsoluteButtons from './AbsoluteButtons.js';
   };
 
   function CoursesPage({ initialNodes, initialEdges, years }) {
-    console.log("Rendering CoursesPage", {
-        initialNodes,
-        initialEdges,
-        years,
-      });
 
     const [nodes, setNodes, onNodesChange] = useNodesState(years.concat(enrichNodes(initialNodes, initialEdges)));
     const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
@@ -101,9 +96,6 @@ import AbsoluteButtons from './AbsoluteButtons.js';
         setLabel("Clickea en cualquier materia para resetear vista");
       }
     };
-    useEffect(() => {
-        console.log("Visible edges:", edges);
-      }, [edges]);
   
     const mapClick = (e) => {
       if (e.target.className === "react-flow__pane react-flow__container") {
