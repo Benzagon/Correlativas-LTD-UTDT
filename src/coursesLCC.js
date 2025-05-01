@@ -51,8 +51,8 @@ export const nodes = [{
         year: 'a1',
         hasRight: false,
         hasLeft: false,
-        foreground: '#000',
-        background: '#D9B600',
+        foreground: '#FFF',
+        background: '#037B1E',
         done: true,
         label: (
             <>Neurociencia y Psicología Experimental</>
@@ -119,14 +119,14 @@ export const nodes = [{
         year: 'a1',
         hasRight: false,
         hasLeft: false,
-        foreground: '#000',
-        background: '#D9B600',
+        foreground: '#FFF',
+        background: '#232323',
         done: true,
         label: (
-            <>TD II: Sistemas de Computación</>
+            <>Comprensión de Textos y Escritura</>
         ),
     },
-    position: { x: 200, y: 500 },
+    position: { x: 0, y: 500 },
 },
 {
     id: '6',
@@ -137,10 +137,10 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#0D037B',
+        background: '#037B1E',
         done: true,
         label: (
-            <>Matemática II</>
+            <>Estructura y Función del Sistema Nervioso</>
         ),
     },
     position: { x: 200, y: 400 },
@@ -157,7 +157,7 @@ export const nodes = [{
         background: '#0D037B',
         done: true,
         label: (
-            <>Algebra para Computación</>
+            <>Matemática II</>
         ),
     },
     position: { x: 200, y: 200 },
@@ -174,7 +174,7 @@ export const nodes = [{
         background: '#037B1E',
         done: true,
         label: (
-            <>Neurociencias y Psicología Experimental</>
+            <>Fundamentos de Psicología y Sociedad</>
         ),
     },
     position: { x: 200, y: 300 },
@@ -187,11 +187,11 @@ export const nodes = [{
         year: 'a1',
         hasRight: false,
         hasLeft: false,
-        foreground: '#fff',
-        background: '#232323',
+        foreground: '#000',
+        background: '#D9B600',
         done: true,
         label: (
-            <>Comprensión de Textos y Escritura</>
+            <>Introducción a la Programación</>
         ),
     },
     position: { x: 200, y: 100 },
@@ -204,11 +204,11 @@ export const nodes = [{
         year: 'a2',
         hasRight: false,
         hasLeft: false,
-        foreground: '#000',
-        background: '#D9B600',
+        foreground: '#FFF',
+        background: '#037B1E',
         done: true,
         label: (
-            <>TD III: Algoritmos y Estructuras de Datos</>
+            <>Técnicas de Medición en Psicología</>
         ),
     },
     position: { x: 400, y: 400 },
@@ -222,10 +222,10 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#7B035A',
+        background: '#037B1E',
         done: true,
         label: (
-            <>Introducción al Diseño</>
+            <>Neurociencia y Ética</>
         ),
     },
     position: { x: 400, y: 300 },
@@ -239,10 +239,10 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#0D037B',
+        background: '#B64A0D',
         done: true,
         label: (
-            <>Introducción a la Estadística</>
+            <>Introducción a la Contabilidad y Finanzas</>
         ),
     },
     position: { x: 400, y: 200 },
@@ -256,10 +256,10 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#B64A0D',
+        background: '#0D037B',
         done: false,
         label: (
-            <>Microeconomía</>
+            <>Introducción a la Estadística</>
         ),
     },
     position: { x: 400, y: 100 },
@@ -272,11 +272,11 @@ export const nodes = [{
         year: 'a2',
         hasRight: false,
         hasLeft: false,
-        foreground: '#000',
-        background: '#D9B600',
+        foreground: '#FFF',
+        background: '#037B1E',
         done: false,
         label: (
-            <>TD IV: Redes de Computadoras</>
+            <>Personalidad y Diferencias Individuales</>
         ),
     },
     position: { x: 600, y: 400 },
@@ -310,7 +310,7 @@ export const nodes = [{
         background: '#037B1E',
         done: false,
         label: (
-            <>Aspectos Éticos y Legales en Tecnología y Sociedad</>
+            <>Psicología de Masas</>
         ),
     },
     position: { x: 600, y: 200 },
@@ -324,10 +324,10 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#B64A0D',
+        background: '#7B035A',
         done: false,
         label: (
-            <>Introducción a la Contabilidad y las Finanzas</>
+            <>Introducción al Diseño</>
         ),
     },
     position: { x: 600, y: 100 },
@@ -340,11 +340,11 @@ export const nodes = [{
         year: 'a3',
         hasRight: false,
         hasLeft: false,
-        foreground: '#000',
-        background: '#D9B600',
+        foreground: '#FFF',
+        background: '#037B1E',
         done: false,
         label: (
-            <>TD V: Diseño de Algoritmos</>
+            <>Neurociencia del Aprendizaje</>
         ),
     },
     position: { x: 800, y: 400 },
@@ -361,7 +361,7 @@ export const nodes = [{
         background: '#0D037B',
         done: false,
         label: (
-            <>Métodos Computacionales</>
+            <>Métodos Estadísticos en Psicología</>
         ),
     },
     position: { x: 800, y: 300 },
@@ -378,7 +378,7 @@ export const nodes = [{
         background: '#B64A0D',
         done: false,
         label: (
-            <>Gestión de Proyectos Digitales</>
+            <>Teoría de las Decisiones</>
         ),
     },
     position: { x: 800, y: 200 },
@@ -395,7 +395,7 @@ export const nodes = [{
         background: '#7B035A',
         done: false,
         label: (
-            <>Visualización de Datos</>
+            <>Diseño Interactivo</>
         ),
     },
     position: { x: 800, y: 100 },
@@ -408,14 +408,14 @@ export const nodes = [{
         year: 'a3',
         hasRight: false,
         hasLeft: false,
-        foreground: '#000',
-        background: '#D9B600',
+        foreground: '#FFF',
+        background: '#232323',
         done: false,
         label: (
-            <>TD VI: Inteligencia Artificial</>
+            <>Expresión Oral y Escrita</>
         ),
     },
-    position: { x: 1000, y: 500 },
+    position: { x: 800, y: 500 },
 },
 {
     id: '23',
@@ -429,7 +429,7 @@ export const nodes = [{
         background: '#037B1E',
         done: false,
         label: (
-            <>Teoría de las Decisiones</>
+            <>Economía del Comportamiento</>
         ),
     },
     position: { x: 1000, y: 400 },
@@ -443,13 +443,30 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#B64A0D',
+        background: '#0D037B',
         done: false,
         label: (
-            <>Aplicaciones Computacionales en Negocios</>
+            <>Inteligencia Artificial Aplicada</>
         ),
     },
     position: { x: 1000, y: 300 },
+},
+{
+    id: '26',
+    type: 'course',
+    targetPosition: 'right',
+    data: {
+        year: 'a3',
+        hasRight: false,
+        hasLeft: false,
+        foreground: '#fff',
+        background: '#B64A0D',
+        done: false,
+        label: (
+            <>Marketing</>
+        ),
+    },
+    position: { x: 1000, y: 200 },
 },
 {
     id: '25',
@@ -463,24 +480,7 @@ export const nodes = [{
         background: '#7B035A',
         done: false,
         label: (
-            <>Diseño Interactivo</>
-        ),
-    },
-    position: { x: 1000, y: 200 },
-},
-{
-    id: '26',
-    type: 'course',
-    targetPosition: 'right',
-    data: {
-        year: 'a3',
-        hasRight: false,
-        hasLeft: false,
-        foreground: '#fff',
-        background: '#232323',
-        done: false,
-        label: (
-            <>Expresión Oral y Escrita</>
+            <>Visualización de Datos</>
         ),
     },
     position: { x: 1000, y: 100 },
@@ -493,11 +493,11 @@ export const nodes = [{
         year: 'a4',
         hasRight: false,
         hasLeft: false,
-        foreground: '#000',
-        background: '#D9B600',
+        foreground: '#FFF',
+        background: '#B64A0D',
         done: false,
         label: (
-            <>TD VII: Ingeniería de Datos</>
+            <>Comportamiento Organizacional y Gestión de Cambio</>
         ),
     },
     position: { x: 1200, y: 400 },
@@ -511,10 +511,10 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#B64A0D',
+        background: '#0D037B',
         done: false,
         label: (
-            <>Taller de Emprendedorismo</>
+            <>Datos y Neurociencia</>
         ),
     },
     position: { x: 1200, y: 300 },
@@ -561,11 +561,11 @@ export const nodes = [{
         year: 'a4',
         hasRight: false,
         hasLeft: false,
-        foreground: '#000',
-        background: '#D9B600',
+        foreground: '#FFF',
+        background: '#037B1E',
         done: false,
         label: (
-            <>TD VIII: Proyecto Final</>
+            <>Proyecto Final</>
         ),
     },
     position: { x: 1400, y: 400 },
@@ -582,7 +582,7 @@ export const nodes = [{
         background: '#037B1E',
         done: false,
         label: (
-            <>Inteligencia Artificial y Neurociencias</>
+            <>Lenguaje y Cognición</>
         ),
     },
     position: { x: 1400, y: 300 },
