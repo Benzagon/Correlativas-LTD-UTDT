@@ -126,7 +126,7 @@ export const nodes = [{
             <>TD II: Sistemas de Computación</>
         ),
     },
-    position: { x: 200, y: 500 },
+    position: { x: 200, y: 400 },
 },
 {
     id: '6',
@@ -143,7 +143,7 @@ export const nodes = [{
             <>Matemática II</>
         ),
     },
-    position: { x: 200, y: 400 },
+    position: { x: 200, y: 300 },
 },
 {
     id: '7',
@@ -177,7 +177,7 @@ export const nodes = [{
             <>Neurociencias y Psicología Experimental</>
         ),
     },
-    position: { x: 200, y: 300 },
+    position: { x: 200, y: 100 },
 },
 {
     id: '9',
@@ -194,7 +194,7 @@ export const nodes = [{
             <>Comprensión de Textos y Escritura</>
         ),
     },
-    position: { x: 200, y: 100 },
+    position: { x: 200, y: 500 },
 },
 {
     id: '10',
@@ -401,6 +401,23 @@ export const nodes = [{
     position: { x: 800, y: 100 },
 },
 {
+    id: '26',
+    type: 'course',
+    targetPosition: 'right',
+    data: {
+        year: 'a3',
+        hasRight: false,
+        hasLeft: false,
+        foreground: '#fff',
+        background: '#232323',
+        done: false,
+        label: (
+            <>Expresión Oral y Escrita</>
+        ),
+    },
+    position: { x: 800, y: 500 },
+},
+{
     id: '22',
     type: 'course',
     targetPosition: 'right',
@@ -415,7 +432,7 @@ export const nodes = [{
             <>TD VI: Inteligencia Artificial</>
         ),
     },
-    position: { x: 1000, y: 500 },
+    position: { x: 1000, y: 400 },
 },
 {
     id: '23',
@@ -432,7 +449,7 @@ export const nodes = [{
             <>Teoría de las Decisiones</>
         ),
     },
-    position: { x: 1000, y: 400 },
+    position: { x: 1000, y: 300 },
 },
 {
     id: '24',
@@ -449,7 +466,7 @@ export const nodes = [{
             <>Aplicaciones Computacionales en Negocios</>
         ),
     },
-    position: { x: 1000, y: 300 },
+    position: { x: 1000, y: 200 },
 },
 {
     id: '25',
@@ -464,23 +481,6 @@ export const nodes = [{
         done: false,
         label: (
             <>Diseño Interactivo</>
-        ),
-    },
-    position: { x: 1000, y: 200 },
-},
-{
-    id: '26',
-    type: 'course',
-    targetPosition: 'right',
-    data: {
-        year: 'a3',
-        hasRight: false,
-        hasLeft: false,
-        foreground: '#fff',
-        background: '#232323',
-        done: false,
-        label: (
-            <>Expresión Oral y Escrita</>
         ),
     },
     position: { x: 1000, y: 100 },
