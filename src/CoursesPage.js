@@ -163,7 +163,7 @@ import AbsoluteButtons from './AbsoluteButtons.js';
               }}
               onMouseLeave={() => setLabel(preLabel)}
             >
-              <>\u2318</>
+              <>⌘</>
             </ControlButton>
             <ControlButton
               onClick={screenshot}
@@ -174,7 +174,7 @@ import AbsoluteButtons from './AbsoluteButtons.js';
               }}
               onMouseLeave={() => setLabel(preLabel)}
             >
-              <>\u23CF</>
+              <>⏏︎</>
             </ControlButton>
           </Controls>
           <Background color="#aaa" gap={16} className="reactFlowBackgroundPattern" />
