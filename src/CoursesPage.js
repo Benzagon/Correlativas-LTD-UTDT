@@ -51,7 +51,7 @@ import AbsoluteButtons from './AbsoluteButtons.js';
     });
   };
 
-  function CoursesPage({ initialNodes, initialEdges, years }) {
+  function CoursesPage({ initialNodes, initialEdges, years, url }) {
 
     const [nodes, setNodes, onNodesChange] = useNodesState(years.concat(enrichNodes(initialNodes, initialEdges)));
     const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
@@ -133,7 +133,24 @@ import AbsoluteButtons from './AbsoluteButtons.js';
     return (
       <div className="App">
         {/* ... UI overlays and GitHub link (unchanged) ... */}
-        <AbsoluteButtons label={label} />
+        <AbsoluteButtons label={label} url={url}/>
+        <a
+          href='/'
+          style={{
+            position: 'absolute',
+            top: '20px',
+            left: '20px',
+            backgroundColor: 'transparent',
+            color: '#aaa',
+            padding: '10px 16px',
+            border: 'none',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            zIndex: 9999
+          }}
+        >
+          Volver al inicio
+        </a>
         <ReactFlow
           nodes={nodes}
           edges={edges}
