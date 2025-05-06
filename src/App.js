@@ -3,6 +3,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 // import MainMap from './MainMap'; // rename of your flowchart component (was App)
 import CoursesPage from './CoursesPage';
+import Home from './Home';
 
 import { nodes as ccNodes, edges as ccEdges, year_labels as ccYears } from './coursesLCC';
 import { nodes as tdNodes, edges as tdEdges, year_labels as tdYears } from './coursesLTD';
@@ -12,7 +13,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={
-          <h1 style={{ color: 'black' }}>Hola</h1>
+          <Home />
           } />
         <Route path="/ciencias-del-comportamiento" element={
           <CoursesPage

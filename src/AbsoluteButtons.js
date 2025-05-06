@@ -1,16 +1,16 @@
 import React from 'react'
 
-const AbsoluteButtons = ({label}) => {
+const AbsoluteButtons = ({label, url}) => {
   return (
     <>
-        <div>
+      <div>
         <img
           style={{ cursor: 'pointer', position: 'absolute', bottom: 10, right: 10, zIndex: 10, objectFit: 'cover' }}
           src="micro_ditella_dark.png"
           alt="MicroDiTella"
           width="80"
           height="80"
-          onClick={(event) => window.open("https://www.utdt.edu/ver_contenido.php?id_contenido=19866&id_item_menu=31534", '_blank', 'noopener,noreferrer')} />
+          onClick={(event) => window.open(url, '_blank', 'noopener,noreferrer')} />
       </div>
       <div style={{
         position: 'absolute',
