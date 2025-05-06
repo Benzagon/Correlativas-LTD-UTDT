@@ -75,7 +75,7 @@ export const nodes = [{
             <>Matemática I</>
         ),
     },
-    position: { x: 0, y: 300 },
+    position: { x: 0, y: 200 },
 },
 {
     id: '3',
@@ -92,7 +92,7 @@ export const nodes = [{
             <>Economía I</>
         ),
     },
-    position: { x: 0, y: 200 },
+    position: { x: 0, y: 300 },
 },
 {
     id: '4',
@@ -143,7 +143,7 @@ export const nodes = [{
             <>Estructura y Función del Sistema Nervioso</>
         ),
     },
-    position: { x: 200, y: 400 },
+    position: { x: 200, y: 300 },
 },
 {
     id: '7',
@@ -170,14 +170,14 @@ export const nodes = [{
         year: 'a1',
         hasRight: false,
         hasLeft: false,
-        foreground: '#fff',
-        background: '#037B1E',
+        foreground: '#000',
+        background: '#D9B600',
         done: true,
         label: (
             <>Fundamentos de Psicología y Sociedad</>
         ),
     },
-    position: { x: 200, y: 300 },
+    position: { x: 200, y: 400 },
 },
 {
     id: '9',
@@ -187,8 +187,8 @@ export const nodes = [{
         year: 'a1',
         hasRight: false,
         hasLeft: false,
-        foreground: '#000',
-        background: '#D9B600',
+        foreground: '#fff',
+        background: '#0D037B',
         done: true,
         label: (
             <>Introducción a la Programación</>
@@ -208,7 +208,7 @@ export const nodes = [{
         background: '#037B1E',
         done: true,
         label: (
-            <>Técnicas de Medición en Psicología</>
+            <>Técnicas de Medición en Psicología Experimental</>
         ),
     },
     position: { x: 400, y: 400 },
@@ -245,7 +245,7 @@ export const nodes = [{
             <>Introducción a la Contabilidad y Finanzas</>
         ),
     },
-    position: { x: 400, y: 200 },
+    position: { x: 400, y: 100 },
 },
 {
     id: '13',
@@ -262,7 +262,7 @@ export const nodes = [{
             <>Introducción a la Estadística</>
         ),
     },
-    position: { x: 400, y: 100 },
+    position: { x: 400, y: 200 },
 },
 {
     id: '14',
@@ -272,8 +272,8 @@ export const nodes = [{
         year: 'a2',
         hasRight: false,
         hasLeft: false,
-        foreground: '#FFF',
-        background: '#037B1E',
+        foreground: '#000',
+        background: '#D9B600',
         done: false,
         label: (
             <>Personalidad y Diferencias Individuales</>
@@ -296,7 +296,7 @@ export const nodes = [{
             <>Inferencia Estadística</>
         ),
     },
-    position: { x: 600, y: 300 },
+    position: { x: 600, y: 200 },
 },
 {
     id: '16',
@@ -306,14 +306,14 @@ export const nodes = [{
         year: 'a2',
         hasRight: false,
         hasLeft: false,
-        foreground: '#fff',
-        background: '#037B1E',
+        foreground: '#000',
+        background: '#D9B600',
         done: false,
         label: (
             <>Psicología de Masas</>
         ),
     },
-    position: { x: 600, y: 200 },
+    position: { x: 600, y: 300 },
 },
 {
     id: '17',
@@ -361,10 +361,10 @@ export const nodes = [{
         background: '#0D037B',
         done: false,
         label: (
-            <>Métodos Estadísticos en Psicología</>
+            <>Métodos Estadísticos en Psicología Experimental</>
         ),
     },
-    position: { x: 800, y: 300 },
+    position: { x: 800, y: 200 },
 },
 {
     id: '20',
@@ -381,7 +381,7 @@ export const nodes = [{
             <>Teoría de las Decisiones</>
         ),
     },
-    position: { x: 800, y: 200 },
+    position: { x: 800, y: 300 },
 },
 {
     id: '21',
@@ -426,7 +426,7 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#037B1E',
+        background: '#B64A0D',
         done: false,
         label: (
             <>Economía del Comportamiento</>
@@ -449,7 +449,7 @@ export const nodes = [{
             <>Inteligencia Artificial Aplicada</>
         ),
     },
-    position: { x: 1000, y: 300 },
+    position: { x: 1000, y: 200 },
 },
 {
     id: '26',
@@ -466,7 +466,7 @@ export const nodes = [{
             <>Marketing</>
         ),
     },
-    position: { x: 1000, y: 200 },
+    position: { x: 1000, y: 300 },
 },
 {
     id: '25',
@@ -510,8 +510,8 @@ export const nodes = [{
         year: 'a4',
         hasRight: false,
         hasLeft: false,
-        foreground: '#fff',
-        background: '#0D037B',
+        foreground: '#FFF',
+        background: '#076449',
         done: false,
         label: (
             <>Datos y Neurociencia</>
@@ -562,7 +562,7 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#FFF',
-        background: '#037B1E',
+        background: '#076449',
         done: false,
         label: (
             <>Proyecto Final</>
@@ -578,8 +578,8 @@ export const nodes = [{
         year: 'a4',
         hasRight: false,
         hasLeft: false,
-        foreground: '#fff',
-        background: '#037B1E',
+        foreground: '#FFF',
+        background: '#076449',
         done: false,
         label: (
             <>Lenguaje y Cognición</>
@@ -623,37 +623,31 @@ export const nodes = [{
 }]
 
 export const edges = [
-    { id: '1-5', source: '1', target: '5', markerEnd: { type: MarkerType.ArrowClosed, }, animated: true, },
-    { id: '12-17', source: '12', target: '17', markerEnd: { type: MarkerType.ArrowClosed, }, animated: true, },
-    { id: '1-7', source: '2', target: '7', markerEnd: { type: MarkerType.ArrowClosed, }, animated: true, },
-    { id: '2-6', source: '2', target: '6', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '1-21', source: '1', target: '21', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '1-10', source: '1', target: '10', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '2-10', source: '2', target: '10', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '7-10', source: '7', target: '10', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '6-12', source: '6', target: '12', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '3-13', source: '3', target: '13', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '5-14', source: '5', target: '14', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '12-15', source: '12', target: '15', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '1-15', source: '1', target: '15', markerEnd: { type: MarkerType.ArrowClosed, }, animated: true, },
-    { id: '10-18', source: '10', target: '18', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '6-19', source: '6', target: '19', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '10-19', source: '10', target: '19', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '1-20', source: '1', target: '20', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '11-21', source: '11', target: '21', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '10-22', source: '10', target: '22', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '15-22', source: '15', target: '22', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '13-23', source: '13', target: '23', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '18-24', source: '18', target: '24', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '19-24', source: '19', target: '24', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '11-25', source: '11', target: '25', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '10-27', source: '10', target: '27', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '14-27', source: '14', target: '27', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '8-32', source: '8', target: '32', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '10-32', source: '10', target: '32', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '23-32', source: '23', target: '32', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '14-31', source: '14', target: '31', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '18-31', source: '18', target: '31', markerEnd: { type: MarkerType.ArrowClosed, }, },
-    { id: '20-31', source: '20', target: '31', markerEnd: { type: MarkerType.ArrowClosed, }, animated: true, },
-    { id: '22-32', source: '22', target: '32', markerEnd: { type: MarkerType.ArrowClosed, }, animated: true, },
+    { id: '2-7', source: '2', target: '7', markerEnd: { type: MarkerType.ArrowClosed, }}, // Mate 1 - Mate 2
+    { id: '7-13', source: '7', target: '13', markerEnd: { type: MarkerType.ArrowClosed, }}, // Mate 2 - Intro. Estadistica
+    { id: '13-15', source: '13', target: '15', markerEnd: { type: MarkerType.ArrowClosed, }}, // Intro. Estadistica - Inferencia
+    { id: '1-10', source: '1', target: '10', markerEnd: { type: MarkerType.ArrowClosed, }}, // Neuro - Tecnicas
+    { id: '1-11', source: '1', target: '11', markerEnd: { type: MarkerType.ArrowClosed, }}, // Neuro - Neuro y Etica
+    { id: '1-18', source: '1', target: '18', markerEnd: { type: MarkerType.ArrowClosed, }}, // Neuro - Neuro del Aprendizaje
+    { id: '8-14', source: '8', target: '14', markerEnd: { type: MarkerType.ArrowClosed, }}, // Fundamentos - Personalidad
+    { id: '8-16', source: '8', target: '16', markerEnd: { type: MarkerType.ArrowClosed, }}, // Fundamentos - Personalidad
+    { id: '9-19', source: '9', target: '19', markerEnd: { type: MarkerType.ArrowClosed, }}, // Programacion - Métodos
+    { id: '15-19', source: '15', target: '19', markerEnd: { type: MarkerType.ArrowClosed, }}, // Inferencia - Métodos
+    { id: '1-19', source: '1', target: '19', markerEnd: { type: MarkerType.ArrowClosed, }}, // Neuro - Métodos
+    { id: '3-20', source: '3', target: '20', markerEnd: { type: MarkerType.ArrowClosed, }}, // Eco 1 - Teo. Decisiones
+    { id: '13-20', source: '13', target: '20', markerEnd: { type: MarkerType.ArrowClosed, }}, // Intro. Estadistica - Teo. Decisiones
+    { id: '9-25', source: '9', target: '25', markerEnd: { type: MarkerType.ArrowClosed, }}, // Programacion - Visualizacion
+    { id: '17-25', source: '17', target: '25', markerEnd: { type: MarkerType.ArrowClosed, }}, // Diseño - Visualizacion
+    { id: '17-21', source: '17', target: '21', markerEnd: { type: MarkerType.ArrowClosed, }}, // Diseño - Diseño Interactivo
+    { id: '3-23', source: '3', target: '23', markerEnd: { type: MarkerType.ArrowClosed, }}, // Eco 1 - Eco Comportamiento
+    { id: '9-24', source: '9', target: '24', markerEnd: { type: MarkerType.ArrowClosed, }}, // Programacion - IA Aplicada
+    { id: '15-24', source: '15', target: '24', markerEnd: { type: MarkerType.ArrowClosed, }}, // Inferencia - IA Aplicada
+    { id: '9-28', source: '9', target: '28', markerEnd: { type: MarkerType.ArrowClosed, }}, // Programacion - Datos
+    { id: '15-28', source: '15', target: '28', markerEnd: { type: MarkerType.ArrowClosed, }}, // Inferencia - Datos
+    { id: '10-28', source: '10', target: '28', markerEnd: { type: MarkerType.ArrowClosed, }}, // Tecnicas Medicion - Datos
+    { id: '9-32', source: '9', target: '32', markerEnd: { type: MarkerType.ArrowClosed, }}, // Programacion - Lenguaje y Cogni
+    { id: '15-32', source: '15', target: '32', markerEnd: { type: MarkerType.ArrowClosed, }}, // Inferencia - Lenguaje y Cogni
+    { id: '1-32', source: '1', target: '32', markerEnd: { type: MarkerType.ArrowClosed, }}, // Neuro - Lenguaje y Cogni
+    { id: '10-31', source: '10', target: '31', markerEnd: { type: MarkerType.ArrowClosed, }}, // Medicion - Proyecto
+    { id: '19-31', source: '19', target: '31', markerEnd: { type: MarkerType.ArrowClosed, }}, // Métodos - Proyecto
 ]
