@@ -170,8 +170,8 @@ export const nodes = [{
         year: 'a1',
         hasRight: false,
         hasLeft: false,
-        foreground: '#000',
-        background: '#D9B600',
+        foreground: '#FFF',
+        background: '#14532D',
         done: true,
         label: (
             <>Fundamentos de Psicología y Sociedad</>
@@ -187,8 +187,8 @@ export const nodes = [{
         year: 'a1',
         hasRight: false,
         hasLeft: false,
-        foreground: '#fff',
-        background: '#0D037B',
+        foreground: '#000',
+        background: '#D9B600',
         done: true,
         label: (
             <>Introducción a la Programación</>
@@ -272,8 +272,8 @@ export const nodes = [{
         year: 'a2',
         hasRight: false,
         hasLeft: false,
-        foreground: '#000',
-        background: '#D9B600',
+        foreground: '#FFF',
+        background: '#14532D',
         done: false,
         label: (
             <>Personalidad y Diferencias Individuales</>
@@ -306,8 +306,8 @@ export const nodes = [{
         year: 'a2',
         hasRight: false,
         hasLeft: false,
-        foreground: '#000',
-        background: '#D9B600',
+        foreground: '#FFF',
+        background: '#14532D',
         done: false,
         label: (
             <>Psicología de Masas</>
@@ -442,8 +442,8 @@ export const nodes = [{
         year: 'a3',
         hasRight: false,
         hasLeft: false,
-        foreground: '#fff',
-        background: '#0D037B',
+        foreground: '#000',
+        background: '#D9B600',
         done: false,
         label: (
             <>Inteligencia Artificial Aplicada</>

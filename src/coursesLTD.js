@@ -228,7 +228,7 @@ export const nodes = [{
             <>Introducción al Diseño</>
         ),
     },
-    position: { x: 400, y: 300 },
+    position: { x: 400, y: 100 },
 },
 {
     id: '12',
@@ -245,7 +245,7 @@ export const nodes = [{
             <>Introducción a la Estadística</>
         ),
     },
-    position: { x: 400, y: 200 },
+    position: { x: 400, y: 300 },
 },
 {
     id: '13',
@@ -262,7 +262,7 @@ export const nodes = [{
             <>Microeconomía</>
         ),
     },
-    position: { x: 400, y: 100 },
+    position: { x: 400, y: 200 },
 },
 {
     id: '14',
@@ -313,7 +313,7 @@ export const nodes = [{
             <>Aspectos Éticos y Legales en Tecnología y Sociedad</>
         ),
     },
-    position: { x: 600, y: 200 },
+    position: { x: 600, y: 100 },
 },
 {
     id: '17',
@@ -330,7 +330,7 @@ export const nodes = [{
             <>Introducción a la Contabilidad y las Finanzas</>
         ),
     },
-    position: { x: 600, y: 100 },
+    position: { x: 600, y: 200 },
 },
 {
     id: '18',
@@ -449,7 +449,7 @@ export const nodes = [{
             <>Teoría de las Decisiones</>
         ),
     },
-    position: { x: 1000, y: 300 },
+    position: { x: 1000, y: 200 },
 },
 {
     id: '24',
@@ -460,13 +460,13 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#B64A0D',
+        background: '#0D037B',
         done: false,
         label: (
             <>Aplicaciones Computacionales en Negocios</>
         ),
     },
-    position: { x: 1000, y: 200 },
+    position: { x: 1000, y: 300 },
 },
 {
     id: '25',
