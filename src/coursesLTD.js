@@ -632,6 +632,7 @@ export const edges = [
     { id: '2-10', source: '2', target: '10', markerEnd: { type: MarkerType.ArrowClosed, }, },
     { id: '7-10', source: '7', target: '10', markerEnd: { type: MarkerType.ArrowClosed, }, },
     { id: '6-12', source: '6', target: '12', markerEnd: { type: MarkerType.ArrowClosed, }, },
+    { id: '6-13', source: '6', target: '13', markerEnd: { type: MarkerType.ArrowClosed, }, animated: true, },
     { id: '3-13', source: '3', target: '13', markerEnd: { type: MarkerType.ArrowClosed, }, },
     { id: '5-14', source: '5', target: '14', markerEnd: { type: MarkerType.ArrowClosed, }, },
     { id: '12-15', source: '12', target: '15', markerEnd: { type: MarkerType.ArrowClosed, }, },
