@@ -92,7 +92,7 @@ export const nodes = [{
             <>Economía I</>
         ),
     },
-    position: { x: 0, y: 200 },
+    position: { x: 0, y: 100 },
 },
 {
     id: '4',
@@ -109,7 +109,7 @@ export const nodes = [{
             <>Introducción al Derecho</>
         ),
     },
-    position: { x: 0, y: 100 },
+    position: { x: 0, y: 200 },
 },
 {
     id: '5',
@@ -126,7 +126,7 @@ export const nodes = [{
             <>Economía II</>
         ),
     },
-    position: { x: 200, y: 400 },
+    position: { x: 200, y: 100 },
 },
 {
     id: '6',
@@ -177,7 +177,7 @@ export const nodes = [{
             <>Historia de Occidente a partir de la Modernidad</>
         ),
     },
-    position: { x: 200, y: 100 },
+    position: { x: 200, y: 400 },
 },
 {
     id: '9',
@@ -228,7 +228,7 @@ export const nodes = [{
             <>Información y Contabilidad Gerencial I</>
         ),
     },
-    position: { x: 400, y: 300 },
+    position: { x: 400, y: 200 },
 },
 {
     id: '12',
@@ -245,7 +245,7 @@ export const nodes = [{
             <>Introducción a la Estadística</>
         ),
     },
-    position: { x: 400, y: 200 },
+    position: { x: 400, y: 300 },
 },
 {
     id: '13',
@@ -313,7 +313,7 @@ export const nodes = [{
             <>Historia Económica Internacional</>
         ),
     },
-    position: { x: 600, y: 200 },
+    position: { x: 600, y: 100 },
 },
 {
     id: '17',
@@ -330,7 +330,7 @@ export const nodes = [{
             <>Información y Contabilidad Gerencial II</>
         ),
     },
-    position: { x: 600, y: 100 },
+    position: { x: 600, y: 200 },
 },
 {
     id: '18',
@@ -347,7 +347,7 @@ export const nodes = [{
             <>Macroeconomía</>
         ),
     },
-    position: { x: 800, y: 400 },
+    position: { x: 800, y: 100 },
 },
 {
     id: '19',
@@ -398,7 +398,7 @@ export const nodes = [{
             <>Equipos, Personas y Liderazgo</>
         ),
     },
-    position: { x: 800, y: 100 },
+    position: { x: 800, y: 400 },
 },
 {
     id: '22',
@@ -415,7 +415,7 @@ export const nodes = [{
             <>Riesgo, Incertidumbre y Finanzas</>
         ),
     },
-    position: { x: 1000, y: 400 },
+    position: { x: 1000, y: 100 },
 },
 {
     id: '23',
@@ -466,7 +466,7 @@ export const nodes = [{
             <>Aspectos Legales y Éticos de las Decisiones Empresariales</>
         ),
     },
-    position: { x: 1000, y: 100 },
+    position: { x: 1000, y: 400 },
 },
 {
     id: '26',
