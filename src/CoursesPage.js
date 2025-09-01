@@ -51,8 +51,7 @@ import AbsoluteButtons from './AbsoluteButtons.js';
     });
   };
 
-  function CoursesPage({ initialNodes, initialEdges, years, url }) {
-
+  function CoursesPage({ initialNodes, initialEdges, years, url, title }) {
     const [nodes, setNodes, onNodesChange] = useNodesState(years.concat(enrichNodes(initialNodes, initialEdges)));
     const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
     const onConnect = useCallback((params) => setEdges((eds) => addEdge(params, eds)), [setEdges]);
@@ -129,6 +128,10 @@ import AbsoluteButtons from './AbsoluteButtons.js';
         reactFlowInstance.fitView({ duration: 800, padding: 0.1, center: true });
       }
     }, [nodes, reactFlowInstance]);
+
+    useEffect(() => {
+      document.title = title;
+    }, [title]);
   
     return (
       <div className="App">

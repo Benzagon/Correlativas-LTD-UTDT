@@ -13,6 +13,7 @@ import { nodes as ecoemNodes, edges as ecoemEdges, year_labels as ecoemYears } f
 const DefinedRoutes = [
   {
     path: "/ciencias-del-comportamiento",
+    title: "Licenciatura en Ciencias del Comportamiento",
     edges: ccEdges,
     nodes: ccNodes,
     years: ccYears,
@@ -20,6 +21,7 @@ const DefinedRoutes = [
   },
   {
     path: "/tecnologia-digital",
+    title: "Licenciatura en Tecnología Digital",
     edges: tdEdges,
     nodes: tdNodes,
     years: tdYears,
@@ -27,6 +29,7 @@ const DefinedRoutes = [
   },
   {
     path: "/administracion-de-empresas",
+    title: "Licenciatura en Administración de Empresas",
     edges: admEdges,
     nodes: admNodes,
     years: admYears,
@@ -34,6 +37,7 @@ const DefinedRoutes = [
   },
   {
     path: "/economia-empresarial",
+    title: "Licenciatura en Economía Empresarial",
     edges: ecoemEdges,
     nodes: ecoemNodes,
     years: ecoemYears,
@@ -55,6 +59,7 @@ function App() {
               initialNodes={elem.nodes}
               years={elem.years}
               url={elem.url}
+              title={elem.title}
           />} />))
         }
       </Routes>
