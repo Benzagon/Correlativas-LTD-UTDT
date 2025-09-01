@@ -52,7 +52,7 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#FFF',
-        background: '#B64A0D',
+        background: '#8B1A1A',
         done: true,
         label: (
             <>Administración I</>
@@ -103,7 +103,7 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#B64A0D',
+        background: '#037B1E',
         done: true,
         label: (
             <>Introducción al Derecho</>
@@ -120,7 +120,7 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#000',
-        background: '#D9B600',
+        background: '#FCD303',
         done: true,
         label: (
             <>Economía II</>
@@ -205,7 +205,7 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#FFF',
-        background: '#B64A0D',
+        background: '#8B1A1A',
         done: true,
         label: (
             <>Administración II</>
@@ -255,8 +255,8 @@ export const nodes = [{
         year: 'a2',
         hasRight: false,
         hasLeft: false,
-        foreground: '#fff',
-        background: '#B64A0D',
+        foreground: '#000',
+        background: '#D9B600',
         done: false,
         label: (
             <>Microeconomía</>
@@ -375,13 +375,13 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#B64A0D',
+        background: '#8B1A1A',
         done: false,
         label: (
             <>Dirección de Operaciones y Tecnología I</>
         ),
     },
-    position: { x: 800, y: 200 },
+    position: { x: 800, y: 400 },
 },
 {
     id: '21',
@@ -398,7 +398,7 @@ export const nodes = [{
             <>Equipos, Personas y Liderazgo</>
         ),
     },
-    position: { x: 800, y: 400 },
+    position: { x: 800, y: 200 },
 },
 {
     id: '22',
@@ -426,7 +426,7 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#B64A0D',
+        background: '#8B1A1A',
         done: false,
         label: (
             <>Dirección Estratégica</>
@@ -460,7 +460,7 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#B64A0D',
+        background: '#037B1E',
         done: false,
         label: (
             <>Aspectos Legales y Éticos de las Decisiones Empresariales</>

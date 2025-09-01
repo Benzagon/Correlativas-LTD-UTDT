@@ -27,7 +27,7 @@ const Home = () => {
                     <CourseNode data={{
                         label: "Licenciatura en Administración de Empresas",
                         foreground: "#FFF",
-                        background: "#B64A0D",
+                        background: "#8B1A1A",
                     }
                 } /></a>
             </div>
