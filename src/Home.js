@@ -30,6 +30,13 @@ const Home = () => {
                         background: "#8B1A1A",
                     }
                 } /></a>
+                <a href='/economia-empresarial'>
+                    <CourseNode data={{
+                        label: "Licenciatura en Economia Empresarial",
+                        foreground: "#FFF",
+                        background: "#B64A0D",
+                    }
+                } /></a>
             </div>
         </div>
         <AbsoluteButtons label="" url={"https://www.utdt.edu/"}/>
