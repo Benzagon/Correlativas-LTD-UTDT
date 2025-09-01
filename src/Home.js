@@ -23,6 +23,13 @@ const Home = () => {
                         background: "#037B1E",
                     }
                 } /></a>
+                <a href='/administracion-de-empresas'>
+                    <CourseNode data={{
+                        label: "Licenciatura en Administración de Empresas",
+                        foreground: "#FFF",
+                        background: "#B64A0D",
+                    }
+                } /></a>
             </div>
         </div>
         <AbsoluteButtons label="" url={"https://www.utdt.edu/"}/>
