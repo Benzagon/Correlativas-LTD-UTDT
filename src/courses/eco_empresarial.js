@@ -205,10 +205,10 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#FFF',
-        background: '#8B1A1A',
+        background: '#0D037B',
         done: true,
         label: (
-            <>Administración II</>
+            <>Economía Matemática</>
         ),
     },
     position: { x: 400, y: 400 },
@@ -375,10 +375,10 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#8B1A1A',
+        background: '#0D037B',
         done: false,
         label: (
-            <>Dirección de Operaciones y Tecnología I</>
+            <>Métodos Estadísticos aplicados a los Negocios</>
         ),
     },
     position: { x: 800, y: 400 },
@@ -395,7 +395,7 @@ export const nodes = [{
         background: '#B64A0D',
         done: false,
         label: (
-            <>Equipos, Personas y Liderazgo</>
+            <>Marketing</>
         ),
     },
     position: { x: 800, y: 200 },
@@ -429,7 +429,7 @@ export const nodes = [{
         background: '#8B1A1A',
         done: false,
         label: (
-            <>Dirección Estratégica</>
+            <>Dirección de Operaciones y Tecnología I</>
         ),
     },
     position: { x: 1000, y: 300 },
@@ -443,10 +443,10 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#B64A0D',
+        background: '#037B1E',
         done: false,
         label: (
-            <>Marketing</>
+            <>Teoría de las Decisiones</>
         ),
     },
     position: { x: 1000, y: 200 },
@@ -460,10 +460,10 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#037B1E',
+        background: '#504F51',
         done: false,
         label: (
-            <>Aspectos Legales y Éticos de las Decisiones Empresariales</>
+            <>Materia electiva del Núcleo Digital</>
         ),
     },
     position: { x: 1000, y: 400 },
@@ -497,7 +497,7 @@ export const nodes = [{
         background: '#D9B600',
         done: false,
         label: (
-            <>Negocios y Estrategia Digital</>
+            <>Finanzas Internacionales</>
         ),
     },
     position: { x: 1200, y: 400 },
@@ -520,23 +520,6 @@ export const nodes = [{
     position: { x: 1200, y: 300 },
 },
 {
-    id: '29',
-    type: 'course',
-    targetPosition: 'right',
-    data: {
-        year: 'a4',
-        hasRight: false,
-        hasLeft: false,
-        foreground: '#fff',
-        background: '#B64A0D',
-        done: false,
-        label: (
-            <>Marketing Digital</>
-        ),
-    },
-    position: { x: 1200, y: 200 },
-},
-{
     id: '30',
     type: 'course',
     targetPosition: 'right',
@@ -552,6 +535,23 @@ export const nodes = [{
         ),
     },
     position: { x: 1200, y: 100 },
+},
+{
+    id: '33',
+    type: 'course',
+    targetPosition: 'right',
+    data: {
+        year: 'a4',
+        hasRight: false,
+        hasLeft: false,
+        foreground: '#fff',
+        background: '#504F51',
+        done: false,
+        label: (
+            <>Curso de Campo Menor</>
+        ),
+    },
+    position: { x: 1200, y: 200 },
 },
 {
     id: '31',
@@ -571,6 +571,23 @@ export const nodes = [{
     position: { x: 1400, y: 400 },
 },
 {
+    id: '29',
+    type: 'course',
+    targetPosition: 'right',
+    data: {
+        year: 'a4',
+        hasRight: false,
+        hasLeft: false,
+        foreground: '#fff',
+        background: '#B64A0D',
+        done: false,
+        label: (
+            <>Estrategia Competitiva y Digital</>
+        ),
+    },
+    position: { x: 1400, y: 200 },
+},
+{
     id: '32',
     type: 'course',
     targetPosition: 'right',
@@ -579,30 +596,13 @@ export const nodes = [{
         hasRight: false,
         hasLeft: false,
         foreground: '#fff',
-        background: '#037B1E',
+        background: '#8B1A1A',
         done: false,
         label: (
-            <>Sustentabilidad y Negocios</>
+            <>Dirección de Operaciones y Tecnología II</>
         ),
     },
     position: { x: 1400, y: 300 },
-},
-{
-    id: '33',
-    type: 'course',
-    targetPosition: 'right',
-    data: {
-        year: 'a4',
-        hasRight: false,
-        hasLeft: false,
-        foreground: '#fff',
-        background: '#504F51',
-        done: false,
-        label: (
-            <>Curso de Campo Menor</>
-        ),
-    },
-    position: { x: 1400, y: 200 },
 },
 {
     id: '34',
@@ -625,25 +625,28 @@ export const nodes = [{
 export const edges = [
     { id: '2-6', source: '2', target: '6', markerEnd: { type: MarkerType.ArrowClosed, }}, // Mate 1 - Mate 2
     { id: '6-12', source: '6', target: '12', markerEnd: { type: MarkerType.ArrowClosed, }}, // Mate 2 - Intro. Estadistica
+    { id: '6-10', source: '6', target: '10', markerEnd: { type: MarkerType.ArrowClosed, }}, // Mate 2 - Mate 3
     { id: '12-15', source: '12', target: '15', markerEnd: { type: MarkerType.ArrowClosed, }}, // Intro. Estadistica - Analisis
+    { id: '15-20', source: '15', target: '20', markerEnd: { type: MarkerType.ArrowClosed, }}, // Analisis - Metodos(MAAN)
     { id: '1-10', source: '1', target: '10', markerEnd: { type: MarkerType.ArrowClosed, }}, // Admin 1 - Admin 2
     { id: '3-13', source: '3', target: '13', markerEnd: { type: MarkerType.ArrowClosed, }}, // Eco 1 - Micro
+    { id: '3-21', source: '3', target: '21', markerEnd: { type: MarkerType.ArrowClosed, }}, // Eco 1 - Marketing
     { id: '7-11', source: '7', target: '11', markerEnd: { type: MarkerType.ArrowClosed, }}, // Conta B - ICG 1
     { id: '11-17', source: '11', target: '17', markerEnd: { type: MarkerType.ArrowClosed, }}, // ICG 1 - ICG 2
     { id: '3-16', source: '3', target: '16', markerEnd: { type: MarkerType.ArrowClosed, }}, // Eco 1 - Hist. Eco
     { id: '5-16', source: '5', target: '16', markerEnd: { type: MarkerType.ArrowClosed, }}, // Eco 2 - Hist. Eco
     { id: '5-18', source: '5', target: '18', markerEnd: { type: MarkerType.ArrowClosed, }}, // Eco 2 - Macro
     { id: '13-22', source: '13', target: '22', markerEnd: { type: MarkerType.ArrowClosed, }}, // Micro - RIF
-    { id: '13-23', source: '13', target: '23', markerEnd: { type: MarkerType.ArrowClosed, }}, // Micro - Dir. Est
-    { id: '10-23', source: '10', target: '23', markerEnd: { type: MarkerType.ArrowClosed, }}, // Adm 2 - Dir. Est
-    { id: '4-25', source: '4', target: '25', markerEnd: { type: MarkerType.ArrowClosed, }}, // Derecho - Aspectos
-    { id: '22-28', source: '22', target: '28', markerEnd: { type: MarkerType.ArrowClosed, }}, // RIF - FdLE
-    { id: '17-28', source: '17', target: '28', markerEnd: { type: MarkerType.ArrowClosed, }}, // ICG II - FdLE
-    { id: '13-27', source: '13', target: '27', markerEnd: { type: MarkerType.ArrowClosed, }}, // Micro - Estrategia Digital
-    { id: '24-29', source: '24', target: '29', markerEnd: { type: MarkerType.ArrowClosed, }}, // Marketing - Mark. Digital
+    { id: '13-24', source: '13', target: '24', markerEnd: { type: MarkerType.ArrowClosed, }}, // Micro - Teo de las Deci
+    { id: '22-27', source: '22', target: '27', markerEnd: { type: MarkerType.ArrowClosed, }}, // RIF - Finanzas Inter.
+    { id: '22-28', source: '22', target: '28', markerEnd: { type: MarkerType.ArrowClosed, }}, // RIF - Finanzas de la Empresa
+    { id: '17-28', source: '17', target: '28', markerEnd: { type: MarkerType.ArrowClosed, }}, // ICG II - Finanzas de la Empresa
     { id: '17-31', source: '17', target: '31', markerEnd: { type: MarkerType.ArrowClosed, }}, // ICG II - DNN
     { id: '22-31', source: '22', target: '31', markerEnd: { type: MarkerType.ArrowClosed, }}, // RIF - DNN
     { id: '1-31', source: '1', target: '31', markerEnd: { type: MarkerType.ArrowClosed, }}, // ADM 1 - DNN
+    { id: '13-29', source: '13', target: '29', markerEnd: { type: MarkerType.ArrowClosed, }}, // Micro - ECD
+    { id: '20-32', source: '20', target: '32', markerEnd: { type: MarkerType.ArrowClosed, }}, // Metodos AAN - DOT II
+    { id: '23-32', source: '23', target: '32', markerEnd: { type: MarkerType.ArrowClosed, }}, // DOT I - DOT II
     { id: '6-13', source: '6', target: '13', markerEnd: { type: MarkerType.ArrowClosed, }, animated: true, }, // Mate 2 - Micro
     { id: '6-18', source: '6', target: '18', markerEnd: { type: MarkerType.ArrowClosed, }, animated: true, }, // Mate 2 - Macro
 ]
